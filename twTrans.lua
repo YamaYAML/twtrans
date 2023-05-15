@@ -1,4 +1,10 @@
+local translationEnabled = true
+
 local function TranslateMessage(msg, author)
+    if not translationEnabled then
+        return msg
+    end
+
     -- Split the message into individual words.
     local words = {}
     for word in msg:gmatch("%S+") do
@@ -36,3 +42,18 @@ f:RegisterEvent("CHAT_MSG_CHANNEL")
 f:SetScript("OnEvent", function(self, event, msg, author)
     TranslateMessage(msg, author)
 end)
+
+-- Slash command handler
+SLASH_TWTRANS1 = "/twtrans"
+SlashCmdList["TWTRANS"] = function(msg)
+    local command = string.lower(msg)
+    if command == "on" then
+        translationEnabled = true
+        DEFAULT_CHAT_FRAME:AddMessage("twTrans: Translation enabled")
+    elseif command == "off" then
+        translationEnabled = false
+        DEFAULT_CHAT_FRAME:AddMessage("twTrans: Translation disabled")
+    else
+        DEFAULT_CHAT_FRAME:AddMessage("twTrans: Unknown command. Use /twtrans on or /twtrans off.")
+    end
+end

@@ -1,7 +1,5 @@
 # twTrans - The Linguistic Wizard of Azeroth
 
-![twTrans Logo](twTrans_logo.png)
-
 twTrans is a powerful World of Warcraft addon that brings linguistic harmony to the realm. No more language barriers or misunderstood messages - twTrans is here to save the day!
 
 ## Features
@@ -42,12 +40,6 @@ twTrans is licensed under the [MIT License](LICENSE).
 
 We extend our gratitude to the entire World of Warcraft community for their support and feedback in making twTrans a reality. We also express our appreciation to the creators of the Lua programming language and the WoW addon development community.
 
-## Contact
 
-For any questions, suggestions, or bug reports, feel free to reach out to us:
-
-- Email: twtrans@yourmail.com
-- Discord: [discord.gg/twtrans](https://discord.gg/twtrans)
-- Twitter: [@twTransOfficial](https://twitter.com/twTransOfficial)
 
 Happy gaming and smooth communication with twTrans! Translating languages has never been so epic!

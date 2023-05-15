@@ -1,7 +1,5 @@
 # twTrans - The Linguistic Wizard of Azeroth
 
-![twTrans Logo](twTrans_logo.png)
-
 twTrans is a powerful World of Warcraft addon that brings linguistic harmony to the realm. No more language barriers or misunderstood messages - twTrans is here to save the day!
 
 ## Features

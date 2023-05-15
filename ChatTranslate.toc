@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: Chat Translate
+## Notes: Translates specific Russian words in chat to English.
+## Version: 1.0
+Dictionary.lua
+ChatTranslate.lua

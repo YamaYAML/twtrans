@@ -1,7 +1,8 @@
 ## Interface: 11200
 ## Title: twTrans
 ## Notes: Translates chat messages from Russian to English and vice versa.
-## Author: Niralthas
+## Author: Niralt0.1
+## Version: 0.0.0.1
 
 twTrans.lua
 RussianToEnglishDictionary.lua
